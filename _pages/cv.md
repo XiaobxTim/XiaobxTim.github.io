@@ -21,7 +21,7 @@ Education
 
 Publication
 ======
-* Jiahao Fan, Zongsheng Li, **Benxiang Xiao**, Qingzhu Zhang, Xinke Shen, and Quanying Liu. "Semantic-guided Contrastive Learning for EEG Decoding of Video Semantics." To appear in *Proceedings of the 2025 China Automation Congress (CAC)*. IEEE, 2025. Paper ID: CCHI2025-121657.
+* Jiahao Fan, Zongsheng Li, **Benxiang Xiao**, Qingzhu Zhang, Xinke Shen, and Quanying Liu. "Semantic-guided Contrastive Learning for EEG Decoding of Video Semantics." In *Proceedings of the 2025 China Automation Congress (CAC)*. IEEE, 2025. doi: 10.1109/CAC67268.2025.11487820.
 
 Skills
 ======
@@ -32,11 +32,17 @@ Skills
 
 Research & Engineering Experience
 ======
+**GPU Sharing** | Research Intern  
+*With the group of Prof. Dingwen Tao, Institute of Computing Technology, Chinese Academy of Sciences (ICT)*  
+Apr. 2026 - Present
+
+* Conducting research on GPU sharing and resource management for deep learning inference workloads in multi-tenant environments.
+* Investigating systems-level bottlenecks in shared-GPU inference scenarios to guide the design of more efficient workload placement and scheduling strategies.
+
 **Efficient Inference for Large Models** | Research Intern  
 *With the group of Prof. Tianwei Zhang, Nanyang Technological University (NTU)*  
 Oct. 2025 - Present
 
-* Investigating inference-efficient methods for large models, including token compression for video large models and parallel decoding strategies for diffusion language models.
 * Investigated systems-oriented approaches for accelerating dynamic inference workloads while preserving model quality.
 
 **Distributed Training Theory** | Research Intern  
@@ -51,7 +57,7 @@ Jun. 2025 - Feb. 2026
 Sep. 2025 - Dec. 2025
 
 * Built a high-concurrency quantitative factor calculation system for limit order book data on HDFS and MapReduce, optimizing key compression, shuffle, object reuse, and custom CSV parsing to reduce network I/O and GC overhead.
-* Achieved a 13x speedup over the baseline with near C/C++-level efficiency in course evaluation while preserving numerical precision.
+* Achieved a 13× speedup over the baseline with near C/C++-level efficiency in course evaluation while preserving numerical precision.
 
 **2025 APAC HPC-AI Competition** | Core Member  
 Jun. 2025 - Nov. 2025
@@ -104,9 +110,10 @@ Organized training and project collaboration for students interested in AI syste
 
 Honors and Awards
 ======
+* Honorable Mention, 2026 Mathematical Contest in Modeling, May 2026
+* Second Class Prize, 2026 ASC Student Supercomputer Challenge, Feb. 2026
 * 3rd Place (Onsite), 8th Place (Overall), IndySCC25, Nov. 2025
 * Achievement Prize, ISC25 Student Cluster Competition, Jun. 2025
-* Second Class Prize, 2025 ASC Student Supercomputer Challenge, Feb. 2025
 * Second Class Prize; Excellent AI Performance, 2025 APAC HPC-AI, Nov. 2025
 * Third Class Prize, 9th Huawei ICT Competition Chinese National Finals, Mar. 2025
 * Achievement Prize, MindSpore Model Development Competition, Nov. 2025
