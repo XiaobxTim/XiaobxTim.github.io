@@ -115,3 +115,10 @@ Honors and Awards
 * First Prize, SUSTech SuperComputing Competition, Aug. 2025
 * Campus Academic Star, Southern University of Science and Technology, Sep. 2024
 * Outstanding Student, Southern University of Science and Technology, Sep. 2025
+
+Contact
+======
+* Email: [12312422@mail.sustech.edu.cn](mailto:12312422@mail.sustech.edu.cn)
+* GitHub: [github.com/XiaobxTim](https://github.com/XiaobxTim)
+* Google Scholar: [scholar.google.com/citations?user=6PDGOX8AAAAJ](https://scholar.google.com/citations?hl=en&user=6PDGOX8AAAAJ)
+* CV: [Web CV](/cv/) / [PDF CV](/files/Benxiang_Xiao_CV.pdf)

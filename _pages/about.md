@@ -182,4 +182,5 @@ I organize training and project collaboration for students interested in AI syst
 
 * Email: [12312422@mail.sustech.edu.cn](mailto:12312422@mail.sustech.edu.cn)
 * GitHub: [github.com/XiaobxTim](https://github.com/XiaobxTim)
+* Google Scholar: [scholar.google.com/citations?user=6PDGOX8AAAAJ](https://scholar.google.com/citations?hl=en&user=6PDGOX8AAAAJ)
 * CV: [Web CV](/cv/) / [PDF CV](/files/Benxiang_Xiao_CV.pdf)
