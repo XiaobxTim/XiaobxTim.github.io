@@ -9,7 +9,31 @@
 
 main:
   - title: "About"
-    url: /
+    url: /#about-me
+
+  - title: "News"
+    url: /#news
+
+  - title: "Publications"
+    url: /#publications
+
+  - title: "Research"
+    url: /#research-engineering
+
+  - title: "Competitions"
+    url: /#competitions-projects
+
+  - title: "Awards"
+    url: /#honors-awards
+
+  - title: "Leadership"
+    url: /#leadership
+
+  - title: "Education"
+    url: /#education
+
+  - title: "Contact"
+    url: /#contact
     
   - title: "CV"
     url: /cv/
