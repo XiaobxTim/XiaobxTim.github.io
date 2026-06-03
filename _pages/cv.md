@@ -30,7 +30,7 @@ Skills
 * Profiling: Kunpeng DevKit, VTune, PyTorch Profiler, IPM, HipProf, MindSpore Profiler, Nsight Systems
 * Languages: English, Chinese (native)
 
-Research & Engineering Experience
+Research & Internship Experience
 ======
 **GPU Sharing** | Research Intern  
 *With the group of Prof. Dingwen Tao, Institute of Computing Technology, Chinese Academy of Sciences (ICT)*  

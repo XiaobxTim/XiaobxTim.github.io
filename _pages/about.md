@@ -51,15 +51,11 @@ My work centers on **machine learning systems**, **efficient LLM inference**, **
 
 {% include feature_row id="feature_row_publication" %}
 
-<span class="anchor" id="research-engineering"></span>
+<span class="anchor" id="experience"></span>
 
-# Research & Engineering
+# Research & Internship Experience
 
-My current research work focuses on systems-oriented acceleration for large-model inference, distributed training, and GPU sharing. I prefer work that connects model design with concrete performance bottlenecks, profiling traces, and deployable systems.
-
-<span class="anchor" id="internships"></span>
-
-# Internships
+My current work spans research internships and systems-oriented engineering on large-model inference, distributed training, and GPU sharing. I prefer work that connects model design with concrete performance bottlenecks, profiling traces, and deployable systems.
 
 **GPU Sharing** | Research Intern  
 *With the group of Prof. Dingwen Tao, Institute of Computing Technology, Chinese Academy of Sciences (ICT)*  
