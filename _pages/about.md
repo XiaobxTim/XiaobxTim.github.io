@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Homepage"
+title:
 author_profile: true
 redirect_from:
   - /about/
@@ -10,6 +10,11 @@ feature_row_publication:
     alt: "Semantic-guided contrastive learning framework for EEG decoding"
     title: "Semantic-guided Contrastive Learning for EEG Decoding of Video Semantics"
     excerpt: "To appear in CAC 2025. Joint work with Jiahao Fan, Zongsheng Li, Qingzhu Zhang, Xinke Shen, and Quanying Liu."
+feature_row_financial:
+  - image_path: 高频因子.png
+    alt: "High-frequency financial factor distributed computing workflow"
+    title: "High-Frequency Financial Data Distributed Computing"
+    excerpt: "Course project, ranked Top 1% in performance benchmark. Built a high-concurrency quantitative factor calculation system for limit order book data on HDFS and MapReduce. Optimized key compression, shuffle, object reuse, and custom CSV parsing, achieving a **13x speedup** over the baseline while preserving numerical precision."
 feature_row_competitions:
   - image_path: APAC.png
     alt: "APAC HPC-AI optimization roadmap"
@@ -37,7 +42,6 @@ My work centers on **machine learning systems**, **efficient LLM inference**, **
 
 # News
 
-* *2026.06*: Launched this academic homepage with detailed sections for research, internships, projects, awards, and CV.
 * *2026.05*: Received Honorable Mention in the 2026 Mathematical Contest in Modeling.
 * *2026.02*: Received Second Class Prize in the 2026 ASC Student Supercomputer Challenge.
 * *2025.11*: Received Second Class Prize and Excellent AI Performance in the 2025 APAC HPC-AI Competition.
@@ -79,15 +83,7 @@ I study theoretical aspects of efficient distributed training in cloud-edge-end 
 
 # Competitions & Projects
 
-**High-Frequency Financial Data Distributed Computing** | Developer  
-*Course Project, ranked Top 1% in performance benchmark*  
-*Sep. 2025 - Dec. 2025*
-
-I built a high-concurrency quantitative factor calculation system for limit order book data on HDFS and MapReduce.
-
-* Optimized key compression, shuffle, object reuse, and custom CSV parsing.
-* Reduced network I/O and garbage collection overhead.
-* Achieved a **13x speedup** over the baseline while preserving numerical precision.
+{% include feature_row id="feature_row_financial" type="left" %}
 
 {% include feature_row id="feature_row_competitions" %}
 

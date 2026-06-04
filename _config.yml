@@ -31,6 +31,8 @@ author:
   employer         : "Southern University of Science and Technology"
   uri              : # URL
   email            : "12312422@mail.sustech.edu.cn"
+  cv               : "/cv/"
+  pdf_cv           : "/files/Benxiang_Xiao_CV.pdf"
 
   # Academic websites
   academia         : # URL
