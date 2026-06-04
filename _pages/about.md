@@ -5,29 +5,6 @@ author_profile: true
 redirect_from:
   - /about/
   - /about.html
-feature_row_publication:
-  - image_path: publication.png
-    alt: "Semantic-guided contrastive learning framework for EEG decoding"
-    title: "Semantic-guided Contrastive Learning for EEG Decoding of Video Semantics"
-    excerpt: "To appear in CAC 2025. Joint work with Jiahao Fan, Zongsheng Li, Qingzhu Zhang, Xinke Shen, and Quanying Liu."
-feature_row_financial:
-  - image_path: 高频因子.png
-    alt: "High-frequency financial factor distributed computing workflow"
-    title: "High-Frequency Financial Data Distributed Computing"
-    excerpt: "Course project, ranked Top 1% in performance benchmark. Built a high-concurrency quantitative factor calculation system for limit order book data on HDFS and MapReduce. Optimized key compression, shuffle, object reuse, and custom CSV parsing, achieving a **13x speedup** over the baseline while preserving numerical precision."
-feature_row_competitions:
-  - image_path: APAC.png
-    alt: "APAC HPC-AI optimization roadmap"
-    title: "2025 APAC HPC-AI Competition"
-    excerpt: "Core member. Optimized NWChem and profiled DeepSeek-R1 on multi-node GPU clusters. 4.82x speedup on NWChem and about 70% throughput improvement on DeepSeek-R1."
-  - image_path: MoE.png
-    alt: "MoE optimization framework"
-    title: "MindSpore Model Development Competition"
-    excerpt: "Team leader. Optimized expert routing, sparse GEMM, and memory fragmentation; reduced decoding latency by about 80%."
-  - image_path: hgemm.png
-    alt: "HGEMM optimization framework"
-    title: "2nd SUSTech SuperComputing Competition"
-    excerpt: "Team leader. Built a high-performance HGEMM kernel with WMMA, tiling, double buffering, and register swizzling."
 ---
 
 <span class="anchor" id="about-me"></span>
@@ -53,7 +30,23 @@ My work centers on **machine learning systems**, **efficient LLM inference**, **
 
 # Publications
 
-{% include feature_row id="feature_row_publication" %}
+<div class="paper-box" id="semantic-guided-eeg-decoding">
+  <div class="paper-box-image">
+    <div>
+      <div class="badge">Publication</div>
+      <img src="{{ '/images/publication.png' | relative_url }}" alt="Semantic-guided contrastive learning framework for EEG decoding" />
+    </div>
+  </div>
+  <div class="paper-box-text">
+    <p><strong>Semantic-guided Contrastive Learning for EEG Decoding of Video Semantics</strong></p>
+    <p>Joint work with Jiahao Fan, Zongsheng Li, Qingzhu Zhang, Xinke Shen, and Quanying Liu. This work studies EEG-based decoding of video semantics with semantic-guided contrastive learning.</p>
+    <ul>
+      <li>Venue: to appear in <strong>CAC 2025</strong>.</li>
+      <li>Focus: EEG decoding, semantic representation learning, and contrastive learning.</li>
+      <li>Link: <a href="https://doi.org/10.1109/CAC67268.2025.11487820">DOI</a>.</li>
+    </ul>
+  </div>
+</div>
 
 <span class="anchor" id="experience"></span>
 
@@ -83,9 +76,77 @@ I study theoretical aspects of efficient distributed training in cloud-edge-end 
 
 # Competitions & Projects
 
-{% include feature_row id="feature_row_financial" type="left" %}
+<div class="paper-box" id="financial-factor-computing">
+  <div class="paper-box-image">
+    <div>
+      <div class="badge">Distributed Computing</div>
+      <img src="{{ '/images/高频因子.png' | relative_url }}" alt="High-frequency financial factor distributed computing workflow" />
+    </div>
+  </div>
+  <div class="paper-box-text">
+    <p><strong>High-Frequency Financial Data Distributed Computing</strong></p>
+    <p>Built a high-concurrency quantitative factor calculation system for limit order book data on HDFS and MapReduce.</p>
+    <ul>
+      <li>Course project, ranked <strong>Top 1%</strong> in the performance benchmark.</li>
+      <li>Optimized key compression, shuffle, object reuse, and custom CSV parsing.</li>
+      <li>Achieved a <strong>13x speedup</strong> over the baseline while preserving numerical precision.</li>
+    </ul>
+  </div>
+</div>
 
-{% include feature_row id="feature_row_competitions" %}
+<div class="paper-box" id="apac-hpc-ai">
+  <div class="paper-box-image">
+    <div>
+      <div class="badge">HPC-AI Competition</div>
+      <img src="{{ '/images/APAC.png' | relative_url }}" alt="APAC HPC-AI optimization roadmap" />
+    </div>
+  </div>
+  <div class="paper-box-text">
+    <p><strong>2025 APAC HPC-AI Competition</strong></p>
+    <p>Core member for NWChem optimization and DeepSeek-R1 multi-node GPU profiling.</p>
+    <ul>
+      <li>Optimized NWChem through compilation refactoring and communication tuning.</li>
+      <li>Profiled DeepSeek-R1 on multi-node GPU clusters with Nsight Systems and SGLang Profiler.</li>
+      <li>Achieved a <strong>4.82x speedup</strong> on NWChem and about <strong>70%</strong> throughput improvement on DeepSeek-R1.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="paper-box" id="mindspore-moe">
+  <div class="paper-box-image">
+    <div>
+      <div class="badge">MoE Optimization</div>
+      <img src="{{ '/images/MoE.png' | relative_url }}" alt="MoE optimization framework" />
+    </div>
+  </div>
+  <div class="paper-box-text">
+    <p><strong>MindSpore Model Development Competition</strong></p>
+    <p>Led optimization for DeepSeek-MoE-16B and Qwen1.5-MoE inference on MindSpore.</p>
+    <ul>
+      <li>Optimized expert routing, sparse GEMM, and memory fragmentation bottlenecks.</li>
+      <li>Implemented a fused Softmax + TopK operator.</li>
+      <li>Reduced decoding latency by about <strong>80%</strong> with a dual-path inference engine.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="paper-box" id="hgemm-optimization">
+  <div class="paper-box-image">
+    <div>
+      <div class="badge">GPU Kernel</div>
+      <img src="{{ '/images/hgemm.png' | relative_url }}" alt="HGEMM optimization framework" />
+    </div>
+  </div>
+  <div class="paper-box-text">
+    <p><strong>2nd SUSTech SuperComputing Competition</strong></p>
+    <p>Built a high-performance HGEMM kernel with CUDA Tensor Core optimization.</p>
+    <ul>
+      <li>Used WMMA, size-specific tiling, double buffering, and asynchronous caching.</li>
+      <li>Applied register swizzling and loop unrolling for small-to-medium matrix settings.</li>
+      <li>Achieved performance competitive with or exceeding cuBLAS in selected cases.</li>
+    </ul>
+  </div>
+</div>
 
 **2025 ASC Student Supercomputer Challenge** | Core Member  
 *Jan. 2025 - Feb. 2025*
